@@ -1,0 +1,21 @@
+
+#####################################################################################
+        Module Name         : Logs.py
+        Developer           : Anupam Singh
+        Last Updated        : 5/03/2025
+        Document Version    : 1.0
+        Version History     : -
+#####################################################################################
+
+The section povides information on the usage of logs module under utility. The module references the logging API for custom based logger which enables archiving logs on the basis of processes being handled. The logger is confrigured with File handler helping catalog logs on the basis of process date. The logger also enables dynamic logging level for the user to define while initiating the class.
+
+While initializing, logs module accepts one argument, process_name <string datatype>, which enables the module to create a process_name directory under the logs section. Each Process has it's own independent log section which is sub-divided by the process date directory. 
+
+
+    //processDateTime, <class method>     - sets the process date and time for the logger to function. 
+
+    //setLoggerDate, <class method>       - creates sub directory under process_name directory as per the process run date. 
+
+    //setHandlers, <class method>         - configures logger and sets file handling process which helps in archiving
+
+    //intializeLogger, <class method>     - takes in level_name <string datatype> argument which sets the logger level and orchestrates the other class method for initialisation of the module.

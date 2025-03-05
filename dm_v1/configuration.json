@@ -1,23 +1,28 @@
-{
-    "service"           :   "",
-    "applications"      :   [
-        {
-            "appName": "dm_d_dat",
-            "appDetails":"storageAccount",
-            "appConn": "",
-            "connType": "MicrosoftEntraID",
-            "appParams": [
-                
-            ]
-        },
+[
+    {
+        "service"           :   "",
+        "applications"      :   [
+            {
+                "appName": "dm_d_dat",
+                "appDetails":"storageAccount",
+                "appConn": "",
+                "connType": "MicrosoftEntraID",
+                "appParams": [
+                    
+                ]
+            },
 
-        {
-            "appName": "",
-            "appDetails":"",
-            "appConn": "",
-            "appLink": "",
-            "appParams": []
-        }
+            {
+                "appName": "",
+                "appDetails":"",
+                "appConn": "",
+                "appLink": "",
+                "appParams": []
+            }
 
-    ] 
-}
+        ] 
+    },
+    {
+        
+    }
+]
